@@ -78,7 +78,7 @@ class TestShoppingProgram(unittest.TestCase):
         expected_list = [("Laptop", 1000), ("Smartphone", 600), ("USB Drive", 15)]
         self.assertEqual(sorted_list, expected_list)  
 
-    
+
     def test_add_to_cart(self):
         product = ("Laptop", 1000)
         quantity = 2
